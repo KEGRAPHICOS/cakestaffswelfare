@@ -31,6 +31,11 @@ body {
   animation: slideIn 1.5s forwards; /* slide-in on load */
 }
 
+.welcome-logo {
+  width: 90px;          /* adjust size if needed */
+  margin-bottom: 20px;
+}
+
 @keyframes slideIn {
   0% { transform: translateX(100%); opacity: 0; }
   100% { transform: translateX(0); opacity: 1; }
@@ -76,4 +81,5 @@ footer {
   margin-top: 50px;
   font-size: 0.6rem;
   color: #bfc6ce;
+
 }
